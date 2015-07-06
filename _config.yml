@@ -1,12 +1,12 @@
 # Site settings
 title: Ilham Gusti
-email: 
+email: ilham.wibowo51@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Tema Situs Statik Buatan Ilham Gusti Wibowo
+  Tema Situs Statik Buatan Ilham Gusti Wibowo Polar Blue
 baseurl: "/blog" # the subpath of your site, e.g. /blog/
-url: "http://username.github.io" # the base hostname & protocol for your site
-twitter_username: username
-github_username: username
+url: "http://ilhamgusti.github.io" # the base hostname & protocol for your site
+twitter_username: ilhamgewew
+github_username: ilhamgusti
 
 colors:  #in hex code if not noted else
   primary: "#00b3fe" #"#F70031" 
@@ -19,10 +19,10 @@ colors:  #in hex code if not noted else
   header: "#00b2f0"
 # Build settings #redcarpet, kramdown
 highlighter: rouge
-markdown: redcarpet
+markdown: kramdown
 markdown_ext:  markdown,mkdown,mkdn,mkd,md
-permalink: /post//:title
+permalink: /post/:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
-redcarpet:
+kramdown:
   extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
