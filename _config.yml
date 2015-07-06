@@ -3,7 +3,7 @@ title: Ilham Gusti
 email: ilham.wibowo51@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Tema Situs Statik Buatan Ilham Gusti Wibowo Polar Blue
-baseurl: "/blog" # the subpath of your site, e.g. /blog/
+baseurl: "/blog/" # the subpath of your site, e.g. /blog/
 url: "http://ilhamgusti.github.io" # the base hostname & protocol for your site
 twitter_username: ilhamgewew
 github_username: ilhamgusti
